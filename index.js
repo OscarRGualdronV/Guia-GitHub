@@ -8,3 +8,11 @@ function laCajaDePandora(numero) {
         return hexadecimal
     }
 }
+
+function bruno() {
+    return {
+        nombre: "Bruno",
+        edad: 26,
+        nacionalidad: "Perú"
+    }
+}
