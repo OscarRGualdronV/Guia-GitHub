@@ -5,6 +5,24 @@
 // setTimeout(function(){
 //     console.log("valor final de 'i' usando 'var': ", index);
 // }, 60
-console.log(p);
-const p = 25;
-console.log(p);
+
+function laCajaDePandora(numero){
+    const hexadecimal = numero.toString(16)
+    const binario = numero.toString(2)
+    console.log(`El numero en hexadecimal es: ${hexadecimal}`);
+    console.log(`El numero en binario es: ${binario}`);
+    }
+
+laCajaDePandora(100);
+
+function miNombre (nombre, edad, nacionalidad){
+    return {
+        nombre: nombre,
+        edad: edad,
+        nacionalidad: nacionalidad,
+        
+    }
+}
+
+const nombre = miNombre("Hernán", 31, "Colombiano");
+console.log(nombre);
