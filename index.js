@@ -1,10 +1,31 @@
-// for (let index = 0; index <= 5; index++){
-//     setTimeout(function(){console.log(index)}, 1000)
-// }
+function laCajaDePandora(numero){
 
-// setTimeout(function(){
-//     console.log("valor final de 'i' usando 'var': ", index);
-// }, 60
-console.log(p);
-const p = 25;
-console.log(p);
+    if (typeof numero !== 'number' || !Number.isInteger(numero)) {
+        throw new Error('El parámetro debe ser un número entero.');
+    }
+
+    if (numero % 2 === 0) {
+        return numero.toString(2); 
+    } else {
+        return numero.toString(16); 
+    }
+    }
+
+    console.log(laCajaDePandora(4));
+console.log(laCajaDePandora(5)); 
+
+
+// index.js
+
+function oscarGualdron() {
+    return {
+      nombre: "Oscar",
+      edad: 32,
+      nacionalidad: "Colombia"
+    };
+  }
+  
+const informacionOscar = oscarGualdron();
+
+console.log(informacionOscar);
+  
