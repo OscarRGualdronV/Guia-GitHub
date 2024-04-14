@@ -14,3 +14,15 @@ function laCajaDePandora(numero){
     }
 
 laCajaDePandora(100);
+
+function miNombre (nombre, edad, nacionalidad){
+    return {
+        nombre: nombre,
+        edad: edad,
+        nacionalidad: nacionalidad,
+        
+    }
+}
+
+const nombre = miNombre("Hernán", 31, "Colombiano");
+console.log(nombre);
