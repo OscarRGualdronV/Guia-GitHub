@@ -13,3 +13,19 @@ function laCajaDePandora(numero){
 
     console.log(laCajaDePandora(4));
 console.log(laCajaDePandora(5)); 
+
+
+// index.js
+
+function oscarGualdron() {
+    return {
+      nombre: "Oscar",
+      edad: 32,
+      nacionalidad: "Colombia"
+    };
+  }
+  
+const informacionOscar = oscarGualdron();
+
+console.log(informacionOscar);
+  
